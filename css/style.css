@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800");
+
+* {
+	top: 0;
+	left: 0;
+	font-family: 'Poppins';
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: sticky;
+	background-color: #fff;
+	color: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 70px;
+}
+
+.logo {
+	width: 180px;
+	height: auto;
+}
+
+.navigation {
+	list-style-type: none;
+}
+
+.navigation li {
+	display: inline;
+	margin-right: 30px;
+	cursor: pointer;
+}
+
+.navigation a {
+	font-size: 17px;
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+}
+
+.socnet li {
+	display: inline;
+	margin-left: 10px;
+}
+
+.socnet a {
+	text-decoration: none;
+	color: #000;
+}
+
+.socnet li:nth-child(2) {
+	color: #ddd;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 120px;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 1;
+	padding-top: 30px;
+	border-radius: 4px;
+}
+
+.dropdown-content a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding: 8px 5px;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: #ececec;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.mainImages {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+
+.mainImages img {
+	width: 246px;
+	flex: 0 0 auto;
+	margin-right: 0;
+}
+
+.footer {
+	background-color: #fff;
+	color: #000;
+	padding: 90px 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer-column {
+	flex: 1;
+	margin: 0 15px;
+}
+
+.footer-column h4 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.footer-column ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-column ul li {
+	margin-bottom: 5px;
+	color: #777670;
+}
+
+.footer-column a {
+	text-decoration: none;
+	color: #777670;
+}
+
+.footer-column p {
+	color: #777670;
+}
